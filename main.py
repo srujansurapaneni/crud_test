@@ -22,3 +22,25 @@ def post_data():
 
 # start server
 app.run(port=5000)
+
+"""
+import mysql.connector
+
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="yourusername",
+  password="yourpassword"
+)
+
+mycursor = mydb.cursor()
+
+mycursor.execute("CREATE DATABASE mydatabase")
+"""
+"""
+cnxn = pyodbc.connect("Driver={SQL Server};"
+"Server=b0660ee44698;"
+"Database=master;"
+"Trusted_Connection=yes;"
+"uid=SA;"
+"pwd=OneforYou1;")
+"""
