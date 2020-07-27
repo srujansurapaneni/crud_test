@@ -38,9 +38,9 @@ mycursor.execute("CREATE DATABASE mydatabase")
 """
 """
 cnxn = pyodbc.connect("Driver={SQL Server};"
-"Server=b0660ee44698;"
+"Server=<server name>;"
 "Database=master;"
 "Trusted_Connection=yes;"
-"uid=SA;"
-"pwd=OneforYou1;")
+"uid='<user>;"
+"pwd=<pwd>;")
 """
